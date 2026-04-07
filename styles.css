@@ -132,6 +132,10 @@ body {
   background: var(--accent-dark);
 }
 
+.hero-copy button:active {
+  background: #243fb3;
+}
+
 .hero-card h3,
 .features h3,
 .principles h3 {
