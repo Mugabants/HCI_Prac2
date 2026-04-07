@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Screen Layout Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-top">
+        <h1 class="logo">Group 2 CS HCI Prac</h1>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#principles">Principles</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="member-table-wrap" aria-label="Group member registration details">
+        <table class="member-table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Registration Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>THEMBINKOSI SIKOSANA</td>
+              <td>H220250Q</td>
+            </tr>
+            <tr>
+              <td>TANATSWA MUGABE</td>
+              <td>H220269E</td>
+            </tr>
+            <tr>
+              <td>TRUST RUSIKE</td>
+              <td>H220189E</td>
+            </tr>
+            <tr>
+              <td>TEDDY CHINOMONA</td>
+              <td>H220662T</td>
+            </tr>
+            <tr>
+              <td>NATHAN KAUNYE</td>
+              <td>H220094W</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Screen design and layout</p>
+          <h2>One page, two experiences</h2>
+          <p>
+            This prototype shows how layout adapts from a wide desktop monitor
+            to a small tablet/mobile width. Resize the screen to observe content
+            hierarchy, spacing, and component flows.
+          </p>
+          <button type="button">Explore Prototype</button>
+        </div>
+        <aside class="hero-card" aria-label="Layout behavior panel">
+          <h3>Layout Behavior</h3>
+          <ul>
+            <li>Desktop: multi-column structure</li>
+            <li>Tablet/Mobile: stacked sections</li>
+            <li>Navigation condenses and wraps</li>
+            <li>Typography scales for readability</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h3>Key Feature Blocks</h3>
+        <div class="feature-grid">
+          <article class="feature">
+            <h4>Visual Hierarchy</h4>
+            <p>Primary information remains prominent at every viewport size.</p>
+          </article>
+          <article class="feature">
+            <h4>Flexible Grid</h4>
+            <p>Columns collapse gracefully into a single reading flow.</p>
+          </article>
+          <article class="feature">
+            <h4>Readable Spacing</h4>
+            <p>Padding and line length adjust to maintain comfort.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="principles" class="principles">
+      <div class="container principles-layout">
+        <div>
+          <h3>Principles Demonstrated</h3>
+          <p>
+            The layout uses responsive design rules to prioritize legibility and
+            interaction. On larger screens, side-by-side modules improve scan
+            efficiency. On smaller screens, stacked modules support focused,
+            vertical reading.
+          </p>
+        </div>
+        <div class="principles-box">
+          <p><strong>Desktop:</strong> Split content + contextual panel</p>
+          <p><strong>Tablet/Mobile:</strong> Single-column sequence</p>
+          <p><strong>Goal:</strong> Preserve clarity while reducing clutter</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <p>Contact: Tanatswa Mugabe - <a href="mailto:h220269e@hit.ac.zw">h220269e@hit.ac.zw</a></p>
+    </div>
+  </footer>
+</body>
+</html>
